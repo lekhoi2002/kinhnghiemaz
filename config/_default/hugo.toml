@@ -1,0 +1,40 @@
+baseURL = "/"
+title = "Hugo Theme Tailwind Example Site"
+copyright = "Xiaoliang Wang"
+pagination.pagerSize = 3 # for demonstration of pagination
+languageCode = "en"
+defaultContentLanguage = "en"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+enableGitInfo = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  _merge = "deep"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.x]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+

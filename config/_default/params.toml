@@ -1,0 +1,32 @@
+# SEO keywords and description for your site.
+keywords = "hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind"
+subtitle = "Example site for hugo-theme-tailwind"
+
+# dir name of your blog content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "post"
+
+jsonLD = true
+
+showAuthor = true
+
+[author]
+  name = "Xiaoliang Wang"
+  email = "user@example.com"
+
+[header]
+  logo = "logo.svg"
+  title = "Hugo Theme Tailwind"
+
+[footer]
+  since = 2022
+  poweredby = true
+
+# giscus is comments system powered by GitHub Discussions
+# generate configurations from https://giscus.app/
+
+  # will be used as the manifest.json file and merge the default one
+  # https://developer.mozilla.org/en-US/docs/Web/Manifest
+  # https://web.dev/add-manifest/
+  [manifest]
+  description = "Example site for hugo-theme-tailwind"
